@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_hltechn.mk
+    $(LOCAL_DIR)/exthm_hltechn.mk
+
+COMMON_LUNCH_CHOICES := \
+    exthm_hltechn-user \
+    exthm_hltechn-userdebug \
+    exthm_hltechn-eng
