@@ -4,3 +4,9 @@ telephony.lteOnGsmDevice=1
 
 # System-misc
 persist.sys.timezone=Asia/Shanghai
+
+#JerryMods
+dalvik.vm.boot-dex2oat-threads=4
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-threads=4
+debug.generate-debug-info=false
