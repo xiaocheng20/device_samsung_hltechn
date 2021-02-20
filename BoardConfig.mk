@@ -22,7 +22,7 @@ TARGET_OTA_ASSERT_DEVICE := hlte,hltechn
 TARGET_INIT_VENDOR_LIB := libinit_hltechn
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage_hltechn_defconfig
+TARGET_KERNEL_CONFIG := hltechn_defconfig
 
 # NFC
 BOARD_NFC_HAL_SUFFIX := $(TARGET_BOARD_PLATFORM)
